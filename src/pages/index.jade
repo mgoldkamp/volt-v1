@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    title= volt
+    meta(name='description', content='site description')
+    link(rel='stylesheet', href='css/base.css')
+    //Fonts
+    link(href='http://fonts.googleapis.com/css?family=Roboto:300,400,700,400italic', rel='stylesheet', type='text/css')
+
+
+
+  body
+    div.wrapper
+      div.container
+        div.logo
+          include ../partials/svgs/volt-logo.jade
+        h1 Welcome to Volt
+        p.intro  Volt is my first attempt at making a starter kit for new projects. Volt is built using scss and jade. It comes with bourbon, neat, and Font awesome ready to go. This is my first version so I expect to make plenty of updates.
+        p.version Volt 1.0 | Created by Michael Goldkamp
+        div.social
+          a.social-icons(href="https://instagram.com/michaelgoldkamp/")
+            i.fa.fa-instagram
+          a.social-icons(href="https://twitter.com/MGoldkamp")
+            i.fa.fa-twitter
+          

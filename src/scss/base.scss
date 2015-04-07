@@ -1,0 +1,16 @@
+
+
+// Dependencies
+@import "dependencies/normalize";
+@import "dependencies/bourbon/bourbon";
+@import "dependencies/neat/neat";
+@import "dependencies/fa-scss/font-awesome";
+
+//Components
+
+@import "components/typography";
+
+
+
+//Pages
+@import "pages/home.scss";

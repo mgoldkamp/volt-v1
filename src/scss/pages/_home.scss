@@ -1,0 +1,30 @@
+body{
+	@include linear-gradient( left, #3D7EAA, #FFE47A);
+	height: 100vh;}
+
+.logo{
+	width: 140px;
+	margin-bottom:40px;
+	fill:white;
+	margin: 0 auto;
+}
+.wrapper{
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+.social-icons{
+	margin-right: 10px;
+	text-align: center;
+
+}
+
+.version{
+	
+	font-size: rem(14);
+}
+
